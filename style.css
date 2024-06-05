@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 200%;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+}
+
+.logo{
+    flex-basis: 25%;
+}
+
+.menu{
+    flex-basis: 65%;
+    margin: 30px;
+}
+
+.buttons{
+    flex-basis: 20%;
+    word-spacing: 5px;
+    margin: 15px;
+}
+  
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 16px;
+}
